@@ -1,0 +1,14 @@
+D:\c#\dotnet-course-code\bin\Debug\net8.0\dotnet-course-code.exe
+D:\c#\dotnet-course-code\bin\Debug\net8.0\dotnet-course-code.deps.json
+D:\c#\dotnet-course-code\bin\Debug\net8.0\dotnet-course-code.runtimeconfig.json
+D:\c#\dotnet-course-code\bin\Debug\net8.0\dotnet-course-code.dll
+D:\c#\dotnet-course-code\bin\Debug\net8.0\dotnet-course-code.pdb
+D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.AssemblyInfoInputs.cache
+D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.AssemblyInfo.cs
+D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.csproj.CoreCompileInputs.cache
+D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.dll
+D:\c#\dotnet-course-code\obj\Debug\net8.0\refint\dotnet-course-code.dll
+D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.pdb
+D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.genruntimeconfig.cache
+D:\c#\dotnet-course-code\obj\Debug\net8.0\ref\dotnet-course-code.dll
