@@ -12,3 +12,4 @@ D:\c#\dotnet-course-code\obj\Debug\net8.0\refint\dotnet-course-code.dll
 D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.pdb
 D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.genruntimeconfig.cache
 D:\c#\dotnet-course-code\obj\Debug\net8.0\ref\dotnet-course-code.dll
+D:\c#\dotnet-course-code\obj\Debug\net8.0\dotnet-course-code.sourcelink.json

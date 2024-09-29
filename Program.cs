@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MyApp
 {
@@ -20,54 +21,83 @@ namespace MyApp
             // //// 00001000 = 8
  
             // 1 byte (8 bit) unsigned, where signed means it can be negative
-            byte myByte = 255;
-            byte mySecondByte = 0;
+            // byte myByte = 255;
+            // byte mySecondByte = 0;
  
-            // 1 byte (8 bit) signed, where signed means it can be negative
-            sbyte mySbyte = 127;
-            sbyte mySecondSbyte = -128;
- 
- 
-            // 2 byte (16 bit) unsigned, where signed means it can be negative
-            ushort myUshort = 65535;
- 
-            // 2 byte (16 bit) signed, where signed means it can be negative
-            short myShort = -32768;
- 
-            // 4 byte (32 bit) signed, where signed means it can be negative
-            int myInt = 2147483647;
-            int mySecondInt = -2147483648;
- 
-            // 8 byte (64 bit) signed, where signed means it can be negative
-            long myLong = -9223372036854775808;
+            // // 1 byte (8 bit) signed, where signed means it can be negative
+            // sbyte mySbyte = 127;
+            // sbyte mySecondSbyte = -128;
  
  
-            // 4 byte (32 bit) floating point number
-            float myFloat = 0.751f;
-            float mySecondFloat = 0.75f;
+            // // 2 byte (16 bit) unsigned, where signed means it can be negative
+            // ushort myUshort = 65535;
  
-            // 8 byte (64 bit) floating point number
-            double myDouble = 0.751;
-            double mySecondDouble = 0.75d;
+            // // 2 byte (16 bit) signed, where signed means it can be negative
+            // short myShort = -32768;
  
-            // 16 byte (128 bit) floating point number
-            decimal myDecimal = 0.751m;
-            decimal mySecondDecimal = 0.75m;
+            // // 4 byte (32 bit) signed, where signed means it can be negative
+            // int myInt = 2147483647;
+            // int mySecondInt = -2147483648;
  
-            // Console.WriteLine(myFloat - mySecondFloat);
-            // Console.WriteLine(myDouble - mySecondDouble);
-            // Console.WriteLine(myDecimal - mySecondDecimal);
+            // // 8 byte (64 bit) signed, where signed means it can be negative
+            // long myLong = -9223372036854775808;
  
-            // char can only hold one character UTF-16 uni code
-            char character='@';
-            char character2='A';
  
-            string myString = "Hello World";
-            // Console.WriteLine(myString);
-            string myStringWithSymbols = "!@#$@^$%%^&(&%^*__)+%^@##$!@%123589071340698ughedfaoig137";
-            // Console.WriteLine(myStringWithSymbols);
+            // // 4 byte (32 bit) floating point number
+            // float myFloat = 0.751f;
+            // float mySecondFloat = 0.75f;
+ 
+            // // 8 byte (64 bit) floating point number
+            // double myDouble = 0.751;
+            // double mySecondDouble = 0.75d;
+ 
+            // // 16 byte (128 bit) floating point number
+            // decimal myDecimal = 0.751m;
+            // decimal mySecondDecimal = 0.75m;
+ 
+            // // Console.WriteLine(myFloat - mySecondFloat);
+            // // Console.WriteLine(myDouble - mySecondDouble);
+            // // Console.WriteLine(myDecimal - mySecondDecimal);
+ 
+            // // char can only hold one character UTF-16 uni code
+            // char character='@';
+            // char character2='A';
+ 
+            // string myString = "Hello World";
+            // // Console.WriteLine(myString);
+            // string myStringWithSymbols = "!@#$@^$%%^&(&%^*__)+%^@##$!@%123589071340698ughedfaoig137";
+            // // Console.WriteLine(myStringWithSymbols);
  
             bool myBool = true;
+
+
+            // string[] myGroceris= new string[2] 
+            
+            // string[] myGroceris= new string[2] {"Milk","Vegetable"};
+            // top and buttom are same
+            string[] myGroceris=  {"Milk","Vegetable"};
+        
+            // myGroceris[0]="Ice Cream";
+            // myGroceris[1]="Apples";
+            Console.WriteLine(myGroceris[0]);
+            Console.WriteLine(myGroceris[1]);
+
+            // Console.WriteLine(myGroceris[2]); this will thorw an error
+
+// three different ways
+            // calling the constructor
+            List<String> myStrings = new List<String>();
+            myStrings.Add("Sumit");
+
+            List<String> myStrings2 = new List<String>() { "Mahat" };
+            myStrings2.Add("Sumit");
+
+            List<String> myString3 = ["Sumit Mahat"];
+
+
+            IEnumerable<string> myEnumrables = myGroceris;
+            Console.WriteLine(myEnumrables);
+
 
         }
     }
